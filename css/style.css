@@ -86,17 +86,30 @@ header {
     margin: 20px 0;
 }
 
-
 #ms-jumbo-container {
     height: 100%;
-    /* background-color: orchid; */
     position: relative;
     
-}
+} 
 
 #ms-jumbo-text {
-    /* background-color: rgb(1, 39, 1); */
+    width: 100%;
     position: absolute;
-    left: 0;
-    bottom: 50px;
+    left: 5px;
+    bottom: 50px;  
+}
+
+/* games  */
+.game-img {
+    margin: 20px 0;
+}
+
+#games img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+#games img.img-border {
+    border: 2px solid rgb(19, 111, 216);
+    padding: 2px;
 }
