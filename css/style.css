@@ -3,32 +3,48 @@ body {
     font-family: Arial;
 }
 
+/* buttons */
 .ms-btn {
     border-radius: 40px;
     color: white;
     transition: all;
+    margin-top: 30px;
+    display: block;
 }
 
 .ms-bg-orangered {
     background-color: orangered;
 }
 
-.section-title {
-    text-align: center;
+.ms-bg-blue {
+    background-color: rgba(45,100,230,255);
 }
 
-.section-title h2 {
+h2 {
     margin-bottom: 20px;
+    font-size: 40px;
 }
+
+.grey {
+    color: rgba(115,115,115,255);
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.grey.thin {
+    font-weight: lighter;
+}
+
+.section-title {
+    text-align: center;
+    margin: 80px 0;
+}
+
 
 .section-title .blue {
     color: rgba(19,124,209,255);
 }
 
-.section-title .grey {
-    color: rgba(115,115,115,255);
-    font-weight: bold;
-}
 
 
 /* header  */
@@ -72,6 +88,7 @@ header {
 
 .btn.ms-bg-black {
     background-color: rgba(54,54,54,255);
+    margin-top: 0;
 }
 
 .btn.ms-bg-black:hover {
@@ -102,14 +119,18 @@ header {
     width: 50%;
 }
 
-#jumbo h1 , #jumbo p {
+#jumbo h1 {
+    font-size: 45px;
     margin: 20px 0;
+}
+
+#jumbo p {
+    margin-top: 20px;
 }
 
 #ms-jumbo-container {
     height: 100%;
     position: relative;
-    
 } 
 
 #ms-jumbo-text {
@@ -141,4 +162,28 @@ header {
 
 .img-border.active img {
     border: 2px solid rgb(19, 111, 216);
+}
+
+
+/* section playstation 5  */
+#playstation-5 img{
+    width: 100%;
+}
+
+#playstation-5 .console-item {
+    height: 100%;
+}
+
+#playstation-5 .console-item .item-description {
+    font-size: 19px;
+}
+
+@media all and (max-width: 767px) {
+    #playstation-5 .console-item .item-description {
+        display: none;
+    }
+}
+
+#playstation-5 .console-item.item-active {
+    border-bottom: 3px solid rgba(21,125,209,255);
 }
