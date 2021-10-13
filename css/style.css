@@ -20,6 +20,11 @@ body {
     background-color: rgba(45,100,230,255);
 }
 
+/* sections  */
+h1 {
+    font-size: 45px;
+    margin: 30px 0;
+}
 h2 {
     margin-bottom: 20px;
     font-size: 40px;
@@ -119,21 +124,21 @@ header {
     width: 50%;
 }
 
-#jumbo h1 {
+/* #jumbo h1 {
     font-size: 45px;
     margin: 20px 0;
-}
+} */
 
 #jumbo p {
     margin-top: 20px;
 }
 
-#ms-jumbo-container {
+#ms-jumbo-container , #ms-it-takes-two-container {
     height: 100%;
     position: relative;
 } 
 
-#ms-jumbo-text {
+#ms-jumbo-text , #ms-it-takes-two-text {
     width: 100%;
     position: absolute;
     left: 5px;
@@ -166,6 +171,10 @@ header {
 
 
 /* section playstation 5  */
+#playstation-5 {
+    margin-bottom: 35px;
+}
+
 #playstation-5 img{
     width: 100%;
 }
@@ -186,4 +195,19 @@ header {
 
 #playstation-5 .console-item.item-active {
     border-bottom: 3px solid rgba(21,125,209,255);
+}
+
+
+/* section it takes two  */
+#it-takes-two {
+    /* margin-top: 130px;*/
+    height: 956px; 
+    background-image: url("../img/it-takes-two-hero-banner-desktop.jpg");
+    background-position: center;
+    color: white;
+   
+}
+
+#ms-it-takes-two-logo {
+    width: 100%;
 }
