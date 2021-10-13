@@ -1,8 +1,18 @@
+/* general rules  */
+.ms-btn {
+    border-radius: 40px;
+    color: white;
+    transition: all;
+}
+
+
+
+
+
 /* header  */
 header {
     width: 100%;
-    height: 200px;
-    background-color: rgb(35, 184, 80);
+    height: 130px;
     position: fixed;
     top: 0;
     left: 0;
@@ -21,9 +31,43 @@ header {
     width: 100px;
 }
 
+    /* nav bar  */
+.navbar {
+    height: 80px;
+}
+
+.nav-link {
+    font-family: helvetica;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: black;
+}
+
+.ms-chevron-down {
+    width: 10px;
+    margin-left: 2px;
+}
+
+.btn.ms-bg-black {
+    background-color: rgba(54,54,54,255);
+}
+
+.btn.ms-bg-black:hover {
+    background-color: grey;
+}
+
+.ms-lens {
+    width: 22px;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+
+
+    
 /* jumbo  */
 #jumbo {
-    margin-top: 200px;
+    margin-top: 130px;
     /* debug rules  */
     width: 100%;
     height: 800px;
