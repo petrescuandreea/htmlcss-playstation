@@ -1,4 +1,8 @@
 /* general rules  */
+body {
+    font-family: Arial;
+}
+
 .ms-btn {
     border-radius: 40px;
     color: white;
@@ -9,6 +13,22 @@
     background-color: orangered;
 }
 
+.section-title {
+    text-align: center;
+}
+
+.section-title h2 {
+    margin-bottom: 20px;
+}
+
+.section-title .blue {
+    color: rgba(19,124,209,255);
+}
+
+.section-title .grey {
+    color: rgba(115,115,115,255);
+    font-weight: bold;
+}
 
 
 /* header  */
@@ -102,14 +122,23 @@ header {
 /* games  */
 .game-img {
     margin: 20px 0;
+    width: 100%;
 }
 
 #games img {
     width: 100%;
+    border-radius: 15px;
+}
+
+#games .img-border {
     border-radius: 10px;
 }
 
-#games img.img-border {
+.img-border img {
+    border: 2px solid transparent;
+    padding: 5px;
+}
+
+.img-border.active img {
     border: 2px solid rgb(19, 111, 216);
-    padding: 2px;
 }
