@@ -5,7 +5,9 @@
     transition: all;
 }
 
-
+.ms-bg-orangered {
+    background-color: orangered;
+}
 
 
 
@@ -68,8 +70,33 @@ header {
 /* jumbo  */
 #jumbo {
     margin-top: 130px;
-    /* debug rules  */
-    width: 100%;
-    height: 800px;
-    background-color: rgb(194, 47, 47);
+    height: 600px;
+    background-image: url("../img/jumbo-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+#ms-returnal-logo {
+    width: 50%;
+}
+
+#jumbo h1 , #jumbo p {
+    margin: 20px 0;
+}
+
+
+#ms-jumbo-container {
+    height: 100%;
+    /* background-color: orchid; */
+    position: relative;
+    
+}
+
+#ms-jumbo-text {
+    /* background-color: rgb(1, 39, 1); */
+    position: absolute;
+    left: 0;
+    bottom: 50px;
 }
