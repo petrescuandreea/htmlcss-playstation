@@ -30,6 +30,10 @@ h2 {
     font-size: 40px;
 }
 
+sup {
+    font-size:9px;
+}
+
 .grey {
     color: rgba(115,115,115,255);
     font-weight: bold;
@@ -200,7 +204,6 @@ header {
 
 /* section it takes two  */
 #it-takes-two {
-    /* margin-top: 130px;*/
     height: 956px; 
     background-image: url("../img/it-takes-two-hero-banner-desktop.jpg");
     background-position: center;
@@ -210,4 +213,34 @@ header {
 
 #ms-it-takes-two-logo {
     width: 100%;
+}
+
+
+/* section new releases   */
+#new {
+    background-color: rgba(31,31,31,255);
+    color: white;
+    
+}
+
+#new .title {
+    padding-top: 20px;
+}
+
+#new h3 {
+    font-size: 30px;
+}
+
+.title span {
+    font-size: 24px;
+}
+
+.game-item {
+    margin: 30px 0;
+}
+
+.game-item img {
+    width: 100%;
+    border-radius: 15px;
+    margin-bottom: 10px;
 }
