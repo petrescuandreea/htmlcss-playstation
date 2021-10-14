@@ -246,6 +246,10 @@ header {
 
 
 /* section playstation 4  */
+#playstation-4 {
+    margin-bottom: 30px;
+}
+
 #playstation-4 sup {
     font-size: 20px;
 }
@@ -270,7 +274,14 @@ header {
     background-color: rgba(190,188,187,255);
 }
 
-.ps-plus {
+.ms-btn-blue-white {
+    color: rgba(53,105,230,255);
+    background-color: rgba(217,218,220,255);
+}
+
+
+/* playstation plus + playstation now  */
+.ps-text {
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -278,7 +289,7 @@ header {
     align-items: flex-start;
 }
 
-.ps-plus #ps-plus-logo {
+.ps-text #ps-logo {
     width: 50%;
     padding-bottom: 30px;
 }
@@ -286,7 +297,7 @@ header {
 
 @media all and (max-width: 767px) {
 
-    .ps-plus {
+    .ps-text {
         padding: 35px 0;
     }
 
@@ -296,22 +307,34 @@ header {
 
 }
 
-.ps-plus span {
+.ps-text span {
     display: block;
 }
 
-#playstation-plus img {
+#hidden img {
     width: 100%;
 }
 
-.ms-btn-blue-white {
-    color: rgba(53,105,230,255);
-    background-color: rgba(217,218,220,255);
-}
+
 
 
 /* section new discounts  */
 .ps-store img {
     width: 100%;
     margin: 40px 0;
+}
+
+
+/* section playstation now  */
+#playstation-now {
+    background-color: rgba(22,28,59,255);
+}
+
+#playstation-now span {
+    color: white;
+}
+
+.ms-btn-black-white {
+    color: black;
+    background-color: rgba(245,245,245,255);
 }
