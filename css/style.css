@@ -343,3 +343,50 @@ header {
     width: 100%;
     margin: 40px 0;
 }
+
+
+/* footer  */
+footer {
+    background-color: rgba(0,67,156,255);
+    color: white;
+}
+
+footer #ms-footer-container {
+    padding: 55px 0;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+
+footer a:hover {
+    color: white;
+}
+
+#brand-area {
+    margin-bottom: 40px;
+}
+
+#language-area {
+    margin-top: 25px;
+}
+
+#language-area #globe {
+    width: 20px;
+    margin-right: 5px;
+}
+
+footer ul {
+    list-style-type: none;
+}
+
+#sie-logo {
+    width: 150px;
+}
+
+footer #copyright a {
+    display: inline;
+    text-decoration: underline;
+}
