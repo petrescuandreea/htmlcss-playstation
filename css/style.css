@@ -244,3 +244,31 @@ header {
     border-radius: 15px;
     margin-bottom: 10px;
 }
+
+
+/* section playstation 4  */
+#playstation-4 sup {
+    font-size: 20px;
+}
+
+#playstation-4 span {
+    display: block;
+    font-size: 21px;
+    color: grey;
+}
+
+.ps4-item{
+    margin: 10px 0;
+}
+
+#playstation-4 img {
+    width: 100%;
+}
+
+
+
+/* .ms-col {
+    min-height: 100px;
+    background-color: coral;
+    border: 1px solid black;
+} */
