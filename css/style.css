@@ -266,9 +266,52 @@ header {
 }
 
 
+/* section playstation plus  */
+#playstation-plus {
+    background-color: rgba(190,188,187,255);
+}
+
+.ps-plus {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.ps-plus #ps-plus-logo {
+    width: 50%;
+    padding-bottom: 30px;
+}
+
+@media all and (max-width: 767px) {
+
+    .ps-plus {
+        padding: 35px 0;
+    }
+
+    #hidden {
+        display: none;
+    }
+
+}
+
+.ps-plus span {
+    display: block;
+}
+
+#playstation-plus img {
+    width: 100%;
+}
+
+.ms-btn-blue-white {
+    color: rgba(53,105,230,255);
+    background-color: rgba(217,218,220,255);
+}
+
 
 /* .ms-col {
-    min-height: 100px;
+    min-height: 400px;
     background-color: coral;
     border: 1px solid black;
 } */
