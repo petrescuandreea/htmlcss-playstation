@@ -136,12 +136,14 @@ header {
     margin-top: 20px;
 }
 
-#ms-jumbo-container , #ms-it-takes-two-container {
+/* #ms-it-takes-two-container */
+#ms-jumbo-container{
     height: 100%;
     position: relative;
 } 
 
-#ms-jumbo-text , #ms-it-takes-two-text {
+/* #ms-it-takes-two-text */
+#ms-jumbo-text  {
     width: 100%;
     position: absolute;
     left: 5px;
@@ -203,15 +205,20 @@ header {
 
 /* section it takes two  */
 #it-takes-two {
-    height: 956px; 
+    /* height: 956px;  */
     background-image: url("../img/it-takes-two-hero-banner-desktop.jpg");
     background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
     color: white;
    
 }
+#ms-game-container {
+    padding: 30px 0;
+}
 
-#ms-it-takes-two-logo {
-    width: 100%;
+#game-logo {
+    width: 50%;
 }
 
 
