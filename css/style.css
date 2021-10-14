@@ -316,9 +316,7 @@ header {
 }
 
 
-
-
-/* section new discounts  */
+/* section new discounts */
 .ps-store img {
     width: 100%;
     margin: 40px 0;
@@ -337,4 +335,11 @@ header {
 .ms-btn-black-white {
     color: black;
     background-color: rgba(245,245,245,255);
+}
+
+
+/* section social media channels  */
+.social-channel img {
+    width: 100%;
+    margin: 40px 0;
 }
