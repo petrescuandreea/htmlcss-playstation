@@ -97,6 +97,10 @@ header {
     color: black;
 }
 
+.dropdown-menu li {
+    display: inline-block;
+}
+
 .ms-chevron-down {
     width: 10px;
     margin-left: 2px;
@@ -117,9 +121,32 @@ header {
     margin-top: 10px;
 }
 
+/* dropdown menu  */
+.dropdown {
+    position: unset;
+}
+
+.dropdown-menu[data-bs-popper] {
+    margin-top: 0;
+}
+
+.dropdown-menu {
+    width: 100%;
+    text-align: center;
+    border: unset;
+    border-radius: unset;
+}
+
+.dropdown-item img {
+    width: 50px;
+}
+
+.dropdown-item span {
+    display:block;
+}
 
 
-    
+
 /* jumbo  */
 #jumbo {
     margin-top: 130px;
