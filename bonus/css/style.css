@@ -242,6 +242,14 @@ header {
     border-bottom: 3px solid rgba(21,125,209,255);
 }
 
+#playstation-5 .console-item .opaque-img {
+    filter: opacity(0.5);
+}
+
+#playstation-5 .console-item:hover .opaque-img {
+    filter: none;
+}
+
 
 /* section it takes two  */
 #it-takes-two {
