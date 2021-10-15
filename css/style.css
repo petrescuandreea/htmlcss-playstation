@@ -21,13 +21,21 @@ body {
 }
 
 /* sections  */
+#playstation-5 , #playstation-4 ,#discounts , #social {
+    margin: 40px 0;
+}
+
 h1 {
     font-size: 45px;
-    margin: 30px 0;
 }
+
 h2 {
     margin-bottom: 20px;
     font-size: 40px;
+}
+
+a {
+    text-decoration: none;
 }
 
 sup {
@@ -45,7 +53,7 @@ sup {
 
 .section-title {
     text-align: center;
-    margin: 80px 0;
+    margin: 40px 0;
 }
 
 
@@ -127,24 +135,19 @@ header {
     width: 50%;
 }
 
-/* #jumbo h1 {
-    font-size: 45px;
-    margin: 20px 0;
-} */
-
 #jumbo p {
     margin-top: 20px;
 }
 
-/* #ms-it-takes-two-container */
 #ms-jumbo-container{
     height: 100%;
     position: relative;
 } 
 
-/* #ms-it-takes-two-text */
 #ms-jumbo-text  {
     width: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
     position: absolute;
     left: 5px;
     bottom: 50px;  
@@ -205,7 +208,6 @@ header {
 
 /* section it takes two  */
 #it-takes-two {
-    /* height: 956px;  */
     background-image: url("../img/it-takes-two-hero-banner-desktop.jpg");
     background-position: center;
     background-size: cover;
@@ -226,7 +228,6 @@ header {
 #new {
     background-color: rgba(31,31,31,255);
     color: white;
-    
 }
 
 #new .title {
@@ -284,6 +285,7 @@ header {
 .ms-btn-blue-white {
     color: rgba(53,105,230,255);
     background-color: rgba(217,218,220,255);
+    margin-bottom: 15px;
 }
 
 
@@ -294,7 +296,6 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    padding: 30px 0;
 }
 
 .ps-text #ps-logo {
@@ -330,12 +331,13 @@ header {
 .ms-btn-black-white {
     color: black;
     background-color: rgba(245,245,245,255);
+    margin-bottom: 15px;
 }
 
 
 /* section social media channels  */
 #social {
-    margin-bottom: 40px;
+    margin: 80px 0;
 }
 
 #social #social-channels{
