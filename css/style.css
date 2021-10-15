@@ -294,31 +294,19 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
+    padding: 30px 0;
 }
 
 .ps-text #ps-logo {
     width: 50%;
-    padding-bottom: 30px;
-}
-
-
-@media all and (max-width: 767px) {
-
-    .ps-text {
-        padding: 35px 0;
-    }
-
-    #hidden {
-        display: none;
-    }
-
+    padding: 30px;
 }
 
 .ps-text span {
     display: block;
 }
 
-#hidden img {
+#ps-plus , #ps-now {
     width: 100%;
 }
 
