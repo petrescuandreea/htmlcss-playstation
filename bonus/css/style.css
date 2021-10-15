@@ -1,0 +1,446 @@
+/* general rules  */
+body {
+    font-family: Arial;
+}
+
+/* buttons */
+.ms-btn {
+    border-radius: 40px;
+    color: white;
+    transition: all;
+    margin-top: 30px;
+    display: block;
+}
+
+.ms-bg-orangered {
+    background-color: orangered;
+}
+
+.ms-bg-blue {
+    background-color: rgba(45,100,230,255);
+}
+
+/* sections  */
+#playstation-5 , #playstation-4 ,#discounts , #social {
+    margin: 40px 0;
+}
+
+h1 {
+    font-size: 45px;
+}
+
+h2 {
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+
+a {
+    text-decoration: none;
+}
+
+sup {
+    font-size:9px;
+}
+
+.grey {
+    color: rgba(115,115,115,255);
+    font-size: 25px;
+}
+
+.grey.thin {
+    font-weight: lighter;
+}
+
+.section-title {
+    text-align: center;
+    margin: 40px 0;
+}
+
+
+.section-title .blue {
+    color: rgba(19,124,209,255);
+}
+
+
+
+/* header  */
+header {
+    width: 100%;
+    height: 130px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+    /* logo  */
+#logo {
+    height: 50px; 
+    background-color: black;
+    text-align: right;
+    padding: 10px;
+}
+
+#logo img {
+    width: 100px;
+}
+
+    /* nav bar  */
+.navbar {
+    height: 80px;
+}
+
+.nav-link {
+    font-family: helvetica;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: black;
+}
+
+.dropdown-menu li {
+    display: inline-block;
+}
+
+.ms-chevron-down {
+    width: 10px;
+    margin-left: 2px;
+}
+
+.btn.ms-bg-black {
+    background-color: rgba(54,54,54,255);
+    margin-top: 0;
+}
+
+.btn.ms-bg-black:hover {
+    background-color: grey;
+}
+
+.ms-lens {
+    width: 22px;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+/* dropdown menu lg >*/
+.dropdown {
+    position: unset;
+}
+
+.dropdown-menu[data-bs-popper] {
+    margin-top: 0;
+}
+
+.dropdown-menu {
+    width: 100%;
+    text-align: center;
+    border: unset;
+    border-radius: unset;
+}
+
+.dropdown-item img {
+    width: 50px;
+}
+
+.dropdown-item span {
+    display:block;
+}
+
+/* dropdown menu md <*/
+.navbar-collapse {
+    background-color: white;
+    margin: 0 -12px;
+}
+
+.navbar-light .navbar-nav .nav-link ,
+.btn.ms-bg-black {
+    margin-left: 15px;
+}
+
+
+/* jumbo  */
+#jumbo {
+    margin-top: 130px;
+    height: 600px;
+    background-image: url("../img/jumbo-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+#ms-returnal-logo {
+    width: 50%;
+}
+
+#jumbo p {
+    margin-top: 20px;
+}
+
+#ms-jumbo-container{
+    height: 100%;
+    position: relative;
+} 
+
+#ms-jumbo-text  {
+    width: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
+    position: absolute;
+    left: 5px;
+    bottom: 50px;  
+}
+
+/* games  */
+.game-img {
+    margin: 20px 0;
+    width: 100%;
+}
+
+#games img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+#games .img-border {
+    border-radius: 10px;
+}
+
+.img-border img {
+    border: 2px solid transparent;
+    padding: 5px;
+}
+
+.img-border.active img {
+    border: 2px solid rgb(19, 111, 216);
+}
+
+
+/* section playstation 5  */
+#playstation-5 {
+    margin-bottom: 35px;
+}
+
+#playstation-5 img{
+    width: 100%;
+}
+
+#playstation-5 .console-item {
+    height: 100%;
+}
+
+#playstation-5 .console-item .item-description {
+    font-size: 19px;
+}
+
+@media all and (max-width: 767px) {
+    #playstation-5 .console-item .item-description {
+        display: none;
+    }
+}
+
+#playstation-5 .console-item.item-active {
+    border-bottom: 3px solid rgba(21,125,209,255);
+}
+
+
+/* section it takes two  */
+#it-takes-two {
+    background-image: url("../img/it-takes-two-hero-banner-desktop.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+   
+}
+#ms-game-container {
+    padding: 30px 0;
+}
+
+#game-logo {
+    width: 50%;
+}
+
+
+/* section new releases   */
+#new {
+    background-color: rgba(31,31,31,255);
+    color: white;
+}
+
+#new .title {
+    padding-top: 20px;
+}
+
+#new h3 {
+    font-size: 30px;
+}
+
+.title span {
+    font-size: 24px;
+}
+
+.game-item {
+    margin: 30px 0;
+}
+
+.game-item img {
+    width: 100%;
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+
+
+/* section playstation 4  */
+#playstation-4 {
+    margin-bottom: 30px;
+}
+
+#playstation-4 sup {
+    font-size: 20px;
+}
+
+#playstation-4 span {
+    display: block;
+    font-size: 21px;
+    color: grey;
+}
+
+.ps4-item{
+    margin: 10px 0;
+}
+
+#playstation-4 img {
+    width: 100%;
+}
+
+
+/* section playstation plus  */
+#playstation-plus {
+    background-color: rgba(190,188,187,255);
+}
+
+.ms-btn-blue-white {
+    color: rgba(53,105,230,255);
+    background-color: rgba(217,218,220,255);
+    margin-bottom: 15px;
+}
+
+
+/* playstation plus + playstation now  */
+.ps-text {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.ps-text #ps-logo {
+    width: 50%;
+    padding: 30px;
+}
+
+.ps-text span {
+    display: block;
+}
+
+#ps-plus , #ps-now {
+    width: 100%;
+}
+
+
+/* section new discounts */
+.ps-store img {
+    width: 100%;
+    margin: 40px 0;
+}
+
+
+/* section playstation now  */
+#playstation-now {
+    background-color: rgba(22,28,59,255);
+}
+
+#playstation-now span {
+    color: white;
+}
+
+.ms-btn-black-white {
+    color: black;
+    background-color: rgba(245,245,245,255);
+    margin-bottom: 15px;
+}
+
+
+/* section social media channels  */
+#social {
+    margin: 80px 0;
+}
+
+#social #social-channels{
+    text-align: center;
+}
+
+#social #social-channels a{
+    text-decoration: none;
+}
+
+#social #social-channels img {
+    width: 100px;
+    margin: 5px;
+}
+
+@media all and (max-width: 575px) {
+    #social #social-channels img {
+        width: 150px;
+    }
+}
+
+
+/* footer  */
+footer {
+    background-color: rgba(0,67,156,255);
+    color: white;
+}
+
+footer #ms-footer-container {
+    padding: 55px 0;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+
+footer a:hover {
+    color: white;
+}
+
+#brand-area {
+    margin-bottom: 40px;
+}
+
+#language-area {
+    margin-top: 25px;
+}
+
+#language-area #globe {
+    width: 20px;
+    margin-right: 5px;
+}
+
+footer ul {
+    list-style-type: none;
+}
+
+#sie-logo {
+    width: 150px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+footer #copyright a {
+    display: inline;
+    text-decoration: underline;
+}
