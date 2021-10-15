@@ -121,7 +121,7 @@ header {
     margin-top: 10px;
 }
 
-/* dropdown menu  */
+/* dropdown menu lg >*/
 .dropdown {
     position: unset;
 }
@@ -145,6 +145,16 @@ header {
     display:block;
 }
 
+/* dropdown menu md <*/
+.navbar-collapse {
+    background-color: white;
+    margin: 0 -12px;
+}
+
+.navbar-light .navbar-nav .nav-link ,
+.btn.ms-bg-black {
+    margin-left: 15px;
+}
 
 
 /* jumbo  */
