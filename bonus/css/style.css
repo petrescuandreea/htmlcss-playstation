@@ -46,6 +46,7 @@ h2 {
 
 a {
     text-decoration: none;
+    color: black;
 }
 
 sup {
@@ -318,6 +319,9 @@ header {
     margin-bottom: 10px;
 }
 
+.game-item a {
+    color: white;
+}
 
 /* section playstation 4  */
 #playstation-4 {
