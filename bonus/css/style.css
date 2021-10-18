@@ -455,6 +455,16 @@ header {
     }
 }
 
+/* animoations  */
+#social #social-channels img {
+    transition: all .3s;
+}
+
+#social #social-channels img:hover {
+    transform: scale(1.02);
+    filter: drop-shadow(2px 4px 6px black);
+}
+
 
 /* footer  */
 footer {
