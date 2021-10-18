@@ -138,6 +138,10 @@ header {
     border-radius: unset;
 }
 
+.dropdown-item {
+    text-align: center;
+}
+
 .dropdown-item img {
     width: 50px;
 }
@@ -157,6 +161,31 @@ header {
     margin-left: 15px;
 }
 
+@media all and (max-width:992px) {
+    .dropdown-menu {
+        text-align: start;
+    }
+
+    .dropdown-menu ul {
+        padding-left: 0;
+    }
+
+    .btn.ms-bg-black {
+        width: 50vw;
+    }
+
+    form ul #ms-lens {
+        width: 96vw;
+        border: 1px solid black;
+        margin: 20px 20px 0 15px;
+    }
+
+    .ms-lens {
+        width: auto;
+        margin: 10px 0;
+    }
+
+}
 
 /* jumbo  */
 #jumbo {
