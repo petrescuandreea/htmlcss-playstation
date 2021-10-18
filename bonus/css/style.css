@@ -323,6 +323,17 @@ header {
     color: white;
 }
 
+.game-item img {
+    transition: all;
+}
+
+.game-item:hover img {
+    transform: scale(1.05);
+    filter: drop-shadow(2px 4px 6px black);
+}
+
+
+
 /* section playstation 4  */
 #playstation-4 {
     margin-bottom: 30px;
