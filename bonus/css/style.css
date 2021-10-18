@@ -71,6 +71,17 @@ sup {
     color: rgba(19,124,209,255);
 }
 
+/* filter img  */
+
+.opaque-img {
+    filter: opacity(0.5);
+}
+
+#games .game-img:hover img ,
+#playstation-5 .console-item:hover .opaque-img {
+    filter: none;
+}
+
 
 
 /* header  */
@@ -207,6 +218,11 @@ header {
 .game-img {
     margin: 20px 0;
     width: 100%;
+    transition: all;
+}
+
+.game-img:hover img {
+    transform: translateY(-10px);
 }
 
 #games img {
@@ -253,14 +269,6 @@ header {
 
 #playstation-5 .console-item.item-active {
     border-bottom: 3px solid rgba(21,125,209,255);
-}
-
-#playstation-5 .console-item .opaque-img {
-    filter: opacity(0.5);
-}
-
-#playstation-5 .console-item:hover .opaque-img {
-    filter: none;
 }
 
 
