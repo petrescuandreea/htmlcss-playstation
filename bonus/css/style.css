@@ -401,13 +401,13 @@ header {
 .ps-store img {
     width: 100%;
     margin: 40px 0;
-    transition: all;
+    transition: all 0.3s;
 }
 
 .ps-store img:hover {
     transform: scale(1.02);
-    outline: thick double;
     border-radius: 20px;
+    cursor: pointer;
 }
 
 
