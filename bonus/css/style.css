@@ -25,11 +25,6 @@ body {
     background-color: rgba(45,100,230,255);
 }
 
-.ms-bg-blue:hover {
-    outline: thick double rgba(45,100,230,255);
-    color: white;
-}
-
 /* sections  */
 #playstation-5 , #playstation-4 ,#discounts , #social {
     margin: 40px 0;
@@ -84,7 +79,6 @@ sup {
 }
 
 
-
 /* header  */
 header {
     width: 100%;
@@ -108,73 +102,135 @@ header {
 }
 
     /* nav bar  */
-#header-nav {
+.navbar {
     height: 80px;
-    width: 100%;
-    background-color: white;
 }
 
-.clearfix {
-    content: "";
-    display: table;
-    clear: both;
+.nav-link {
+    font-family: helvetica;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: black;
 }
 
-
-/* nav-bar left  */
-#nav-left {
-    float: left;
-    line-height: 80px;
-    vertical-align: middle;
-}
-
-#play-logo {
-    float: left;
-    line-height: 80px;
-    vertical-align: middle;
-    margin-left: 15px;
-}
-
-.nav-list {
-    float: left;
-    list-style-type: none;
-    margin-bottom: 0;
-}
-
-.nav-list li {
+.dropdown-menu li {
     display: inline-block;
 }
 
-.nav-list li a {
-    text-decoration: none;
-    color: black;
-    padding: 0 10px;
-}
-
-.nav-list li a img {
+.ms-chevron-down {
     width: 10px;
+    margin-left: 2px;
+}
+
+.btn.ms-bg-black {
+    background-color: rgba(54,54,54,255);
+    margin-top: 0;
+}
+
+.btn.ms-bg-black:hover {
+    background-color: grey;
+}
+
+.ms-lens {
+    width: 22px;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+/* dropdown menu lg >*/
+.dropdown {
+    position: unset;
+}
+
+.dropdown-menu[data-bs-popper] {
+    margin-top: 0;
+}
+
+.dropdown-menu {
+    width: 100%;
+    text-align: center;
+    border: unset;
+    border-radius: unset;
 }
 
 
-
-/* nav-bar right  */
-#nav-right {
-    float: right;
-    line-height: 80px;
-    vertical-align: middle;
+.dropdown-item {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: all;
 }
 
-#nav-btn {
-    background-color: black;
-    border-radius: 40px;
-    color: white;
-    padding: 10px;
+.dropdown-item:hover {
+    border-radius: 5px;
+    background-color: white;
+    filter: drop-shadow(1px 1px 2px grey);
 }
 
-#lens-icon {
-    width: 35%;
+.dropdown-item img {
+    width: 50px;
 }
 
+.dropdown-item span {
+    display:block;
+}
+
+.dropdown-secondary-nav {
+    position: relative;
+}
+
+.dropdown-secondary-nav > li {
+    margin-right: 15px;
+}
+
+.dropdown-secondary-nav .dropdown-item {
+    width: auto;
+    height: auto;
+}
+
+.dropdown-secondary-nav .dropdown-item:hover {
+    background-color: transparent;
+    filter: none;
+}
+
+.dropdown-secondary-nav > li a:hover {
+    color:#0070d1;
+}
+
+/* dropdown menu md <*/
+.navbar-collapse {
+    background-color: white;
+    margin: 0 -12px;
+}
+
+.navbar-light .navbar-nav .nav-link ,
+.btn.ms-bg-black {
+    margin-left: 15px;
+}
+
+@media all and (max-width:992px) {
+    .dropdown-menu {
+        text-align: start;
+    }
+
+    .btn.ms-bg-black {
+        width: 50vw;
+    }
+
+    form ul #ms-lens {
+        width: 96vw;
+        border: 1px solid black;
+        margin: 20px 20px 0 15px;
+    }
+
+    .ms-lens {
+        width: auto;
+        margin: 10px 0;
+    }
+
+}
 
 /* jumbo  */
 #jumbo {
@@ -496,6 +552,10 @@ footer a:hover {
 
 footer ul {
     list-style-type: none;
+}
+
+footer ul li {
+    line-height: 35px;
 }
 
 #sie-logo {
