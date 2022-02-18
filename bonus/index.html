@@ -17,87 +17,202 @@
         </div>
 
         <!-- nav bar  -->
-        <div id="header-nav" class="clearfix">
-            <!-- nav-bar left  -->
-            <span id="play-logo">
-                <a href="#">
+        <!-- BS component  -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <!-- container added -->
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
                     <img src="img/play_logo.svg" alt="play logo">
                 </a>
-            </span>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
-            <nav id="nav-left">
-    
-                <ul class="nav-list">
-                    <li>
-                        <a href="#">
-                            Giochi
-                            <img src="img/chevron-down-solid.svg" alt="chevron down icon">
-                        </a> 
-                    </li>
-    
-                    <li>
-                        <a href="#">
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Giochi 
+                                <img class="ms-chevron-down"src="img/chevron-down-solid.svg" alt="chevron down">
+                            </a>
+
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li>
+                                    <a class="dropdown-item" href="#">
+                                        <img src="img/play-menu-ico.png" alt="play ico">
+                                        <span>PS5</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#">
+                                        <img src="img/play-menu-ico.png" alt="play ico">
+                                        <span>PS4</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#">
+                                        <img src="img/play-menu-ico.png" alt="play ico">
+                                        <span>PS vr</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#">
+                                        <img src="img/play-menu-ico.png" alt="play ico">
+                                        <span>PS Plus</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#">
+                                        <img src="img/play-menu-ico.png" alt="play ico">
+                                        <span>PS Now</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#">
+                                        <img src="img/play-menu-ico.png" alt="play ico">
+                                        <span>Compra giochi </span>
+                                    </a>
+                                </li>
+                                <hr class="dropdown-divider">
+                                <ul class="dropdown-secondary-nav">
+                                    <li><a class="dropdown-item" href="#"><span>Indie</span></a></li>
+                                    <li><a class="dropdown-item" href="#"><span>Titoli per PS4 su PS5</span></a></li>
+                                    <li><a class="dropdown-item" href="#"><span>Free to Play</span></a></li>
+                                    <li><a class="dropdown-item" href="#"><span>Promozioni e offerte</span></a></li>
+                                </ul>
+                            </ul>  
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link " href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             Hardware
-                            <img src="img/chevron-down-solid.svg" alt="chevron down icon">
-                        </a>
-                    </li>
-    
-                    <li>
-                        <a href="#">
-                            Servizi
-                            <img src="img/chevron-down-solid.svg" alt="chevron down icon">
-                        </a>
-                    </li>
-    
-                    <li>
-                        <a href="#">
-                            Novit&agrave;
-                            <img src="img/chevron-down-solid.svg" alt="chevron down icon">
-                        </a>
-                    </li>
-    
-                    <li>
-                        <a href="#">
-                            Fai acquisti
-                            <img src="img/chevron-down-solid.svg" alt="chevron down icon">
-                        </a>
-                    </li>
-    
-                    <li>
-                        <a href="#">
-                            Supporto
-                            <img src="img/chevron-down-solid.svg" alt="chevron down icon">
-                        </a>
-                    </li>
-                </ul>
-    
-            </nav>
-    
-            <!-- nav-bar right  -->
-            <nav id="nav-right">
-                <ul class="nav-list">
-                    <li>
-                        <a href="#">
-                            My PlayStation
-                            <img src="img/chevron-down-solid.svg" alt="chevron down icon">
-                        </a>
-                    </li>
-    
-                    <li>
-                        <a id="nav-btn" href="#">
-                            Accedi
-                        </a>
-                    </li>
-    
-                    <li>
-                        <a href="#">
-                            <img id="lens-icon" src="img/lens.svg" alt="lens icon">
-                        </a>
-                    </li>
-                </ul>
-            </nav>
-        </div>
+                            <img class="ms-chevron-down"src="img/chevron-down-solid.svg" alt="chevron down">
+                            </a>
+                            
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li>
+                                    <a class="dropdown-item" href="#">
+                                        <img src="img/play-menu-ico.png" alt="play ico">
+                                        <span>PS5</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#">
+                                        <img src="img/play-menu-ico.png" alt="play ico">
+                                        <span>PS4</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#">
+                                        <img src="img/play-menu-ico.png" alt="play ico">
+                                        <span>PS4 Pro</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#">
+                                        <img src="img/play-menu-ico.png" alt="play ico">
+                                        <span>PS4 VR</span>
+                                    </a>
+                                </li>
+                                <hr class="dropdown-divider">
+                                <ul class="dropdown-secondary-nav">
+                                    <li></i> <a class="dropdown-item" href="#"><span>Controller wireless DualSense</span></a></li>
+                                    <li><a class="dropdown-item" href="#"><span>Cuffie con microfono Pulse 3D</span></a></li>
+                                    <li><a class="dropdown-item" href="#"><span>Accessori per PS5</span></a></li>
+                                    <li><a class="dropdown-item" href="#"><span>Controller wireless DUALSHOCK 4</span></a></li>
+                                    <li><a class="dropdown-item" href="#"><span>Accessori per PS4</span></a></li>
+                                </ul>
+                            </ul>
+                        </li>
 
+                        <li class="nav-item dropdown">
+                            <a class="nav-link " href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Servizi
+                            <img class="ms-chevron-down"src="img/chevron-down-solid.svg" alt="chevron down">
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#"><span>PS Plus</span></a></li>
+                                <li><a class="dropdown-item" href="#"><span>PS Now</span></a></li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link " href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Novit&agrave;
+                            <img class="ms-chevron-down"src="img/chevron-down-solid.svg" alt="chevron down">
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">PS Blog</span></a></li>
+                                <li><a class="dropdown-item" href="#"><span>Questo mese su PlayStation</span></a></li>
+                                <hr class="dropdown-divider">
+                                <ul class="dropdown-secondary-nav">
+                                    <li><a class="dropdown-item" href="#"><span>per PS5</span></a></li>
+                                    <li><a class="dropdown-item" href="#"><span>Intrattenimento per PS4</span></a></li>
+                                    <li><a class="dropdown-item" href="#"><span>Gamer Board</span></a></li>
+                                    <li><a class="dropdown-item" href="#"><span>Accessibilit&agrave;</span></a></li>
+                                </ul>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link " href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Fai acquisti
+                            <img class="ms-chevron-down"src="img/chevron-down-solid.svg" alt="chevron down">
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">Digital Games and Services</a></li>
+                                <li><a class="dropdown-item" href="#">PS Gear</a></li>
+                                <hr class="dropdown-divider">
+                                <ul class="dropdown-secondary-nav">
+                                    <li><a class="dropdown-item" href="#"><span>giochi per PS5</span></a></li>
+                                    <li><a class="dropdown-item" href="#"><span>Acquista giochi per PS4</span></a></li>
+                                    <li><a class="dropdown-item" href="#"><span>Acquista PlayStation Plus</span></a></li>
+                                    <li><a class="dropdown-item" href="#"><span>Acquista PS4</span></a></li>
+                                    <li><a class="dropdown-item" href="#"><span>Acquista PS VR</span></a></li>
+                                </ul>
+                                
+                            </ul>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link " href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Supporto
+                            <img class="ms-chevron-down"src="img/chevron-down-solid.svg" alt="chevron down">
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">Supporto</a></li>
+                                <li><a class="dropdown-item" href="#">Stato del PSN</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+
+                    <form class="d-flex">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item dropdown">
+                                <a class="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                My PlayStation
+                                <img class="ms-chevron-down"src="img/chevron-down-solid.svg" alt="chevron down">
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <button class="btn ms-btn ms-bg-black">Accedi</button>
+                            </li>
+                            <li id=ms-lens>
+                                <a href="#">
+                                    <img class="ms-lens"src="img/lens.svg" alt="lens">
+                                </a>
+                            </li>
+                        </ul>
+                    </form>
+              </div>
+            </div>
+        </nav>
     </header>
 
     <!-- jumbo  -->
@@ -633,29 +748,32 @@
                         <div class="row row-cols-1 row-cols-md-3">
                             <div class="col">
                                 <ul>
-                                    <li><a href="#">Link footer n</a></li>
-                                    <li><a href="#">Link footer n</a></li>
-                                    <li><a href="#">Link footer n</a></li>
-                                    <li><a href="#">Link footer n</a></li>
-                                    <li><a href="#">Link footer n</a></li>
+                                    <li><a href="#">Supporto</a></li>
+                                    <li><a href="#">Informativa sulla privacy e sui cookie</a></li>
+                                    <li><a href="#">Termini di utilizzo del sito Web</a></li>
+                                    <li><a href="#">PlayStation Studios</a></li>
+                                    <li><a href="#">Termini legali</a></li>
+                                    <li><a href="#">Chi siamo</a></li>
+                                    <li><a href="#">PlayStatione l'ambiente</a></li>
                                 </ul>
                             </div>
                             <div class="col">
                                 <ul>
-                                    <li><a href="#">Link footer n</a></li>
-                                    <li><a href="#">Link footer n</a></li>
-                                    <li><a href="#">Link footer n</a></li>
-                                    <li><a href="#">Link footer n</a></li>
-                                    <li><a href="#">Link footer n</a></li>
-                                    <li><a href="#">Link footer n</a></li>
-                                    <li><a href="#">Link footer n</a></li>
+                                    <li><a href="#">Termini di servizio di PSN</a></li>
+                                    <li><a href="#">Termini di annullamento del PS Store</a></li>
+                                    <li><a href="#">Avvertenze per la salute</a></li>
+                                    <li><a href="#">Classificazioni per et&#224;</a></li>
+                                    <li><a href="#">Termini d'uso del Software</a></li>
+                                    <li><a href="#">Lavora con PlayStation</a></li>
+                                    <li><a href="#">Mappa del sito</a></li>
                                 </ul>
                             </div>
                             <div class="col">
                                 <ul>
-                                    <li><a href="#">Link footer n</a></li>
-                                    <li><a href="#">Link footer n</a></li>
-                                    <li><a href="#">Link footer n</a></li>
+                                    <li><a href="#">Facebook</a></li>
+                                    <li><a href="#">Twitter</a></li>
+                                    <li><a href="#">YouTube</a></li>
+                                    <li><a href="#">Instagram</a></li>
                                 </ul>
                             </div>
                         </div>
